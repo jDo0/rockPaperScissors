@@ -10,3 +10,11 @@ selectionButtons.forEach(selectionButton => {
 function makeSelection(selection) {
     console.log(selection)
 }
+
+function randomNumber() {
+    var randomNumber = Math.floor(Math.random()*3+1);
+    console.log(randomNumber);
+}
+
+randomNumber()
+
